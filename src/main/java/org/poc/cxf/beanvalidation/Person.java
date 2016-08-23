@@ -20,7 +20,7 @@ public class Person {
 	@NotNull
 	private String lastName;
 	
-	@Pattern(regexp=".+@.+\\..+", message="Please provide a valid email address")
+	@Pattern(regexp=".+@.+\\..+", message="E-mail invalido")
 	private String email;
 	
 	public String getFirstName() {
